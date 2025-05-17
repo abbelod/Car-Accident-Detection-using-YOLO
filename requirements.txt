@@ -5,3 +5,4 @@ torch
 torchvision
 ultralytics
 Werkzeug==3.0.1 
+Gunicorn
