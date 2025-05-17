@@ -23,7 +23,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Place your trained model file in the project directory and update the model loading code in `app.py`:
+3. (Optional)Place your trained model file in the project directory and update the model loading code in `app.py`:
 ```python
 model = tf.keras.models.load_model('path_to_your_model')
 ```
